@@ -1,0 +1,131 @@
+*{
+    /* border: solid 1px; */
+}
+
+body {
+    background-color: #f9fafc;
+    font-family: open sans;
+    font-weight: 800;
+    padding: 20px 50px 20px;
+
+
+}
+
+/* ---  N A V  ---   */
+.Cont_NAV {
+    display: flex;
+    flex-direction: row;
+    /* --------------------------------------- align-items: stretch; */
+    /* border: solid silver 10px; */
+    align-items: center;  /* vertical-align */
+
+    /* border: solid 3px red; */
+}
+
+.NAV_L {
+    text-align: left;
+    flex-grow: 1;
+    /* border: solid orange 10px; */
+}
+
+/*  N A V -- L I N K S  */
+.LINKS_CONTAINER {
+    /* background-color: #0066ff; */
+    /* border: green 10px solid; */
+    
+}
+
+.NAV_R {
+    /* border: solid black 10px; */
+    
+    width: 100%;    
+}
+
+/* -- U L -- */
+ul {
+    display: flex;
+    flex-direction: row;
+        
+    /* width: 100%; */    
+}
+
+li {
+    list-style: none;
+    padding: 15px;    
+}
+
+/* B U T T O N S */
+button {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+   
+}
+
+
+/* ---   C I R C L E S   ---   */
+
+
+.circle_1 {
+    height: 330px;
+    width:330px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    /* position */
+    position: absolute; 
+    right: 190px; 
+    top: 135px;
+    
+}
+.circle_2 {
+    height: 170px;
+    width: 170px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    /* position */
+    position: absolute; 
+    right: 60px; 
+    top: 145px;
+    
+}.circle_3 {
+    height: 220px;
+    width:220px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    /* position */
+    position: absolute; 
+    right: 60px; 
+    top: 285px;
+
+}
+
+.Content_Cont {
+    /* border: solid 3px #0066ff; */
+}
+
+.Lorem_Ipsum {
+    float: left;
+    width: 60%;
+    border: none;
+    border-left: solid gray 3px;
+    padding: 5px 15px;
+}
+
+.Cont_Content_2 {
+    /* background-color: #0066ff; */
+    display: flex;
+}
+
+.bottom_DIV {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 100px;
+    /* position: absolute; */
+    
+    /* top: 450px; */
+   
+
+}
