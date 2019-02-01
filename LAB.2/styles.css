@@ -1,0 +1,130 @@
+body {
+    background-color: #f9fafc;
+    font-family: open sans;
+    font-weight: 800;
+    padding: 20px 50px 20px;
+    color: gray;
+}
+
+/* ---  N A V  ---   */
+.Cont_NAV {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    padding-right: 20px;
+}
+.logo {
+    color: black;
+}
+
+/* B U T T O N S */
+button {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;   
+}
+
+
+/* ---   C I R C L E S   ---   */
+.circle_1 {
+    height: 330px;
+    width:330px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    /* position */
+    position: absolute; 
+    right: 190px; 
+    top: 135px;    
+}
+
+.circle_2 {
+    height: 170px;
+    width: 170px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    /* position */
+    position: absolute; 
+    right: 60px; 
+    top: 145px;    
+}
+
+.circle_3 {
+    height: 220px;
+    width:220px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    /* position */
+    position: absolute; 
+    right: 60px; 
+    top: 285px;
+}
+
+.Lorem_Ipsum {
+    float: left;
+    width: 60%;
+    border: none;
+    border-left: solid gray 3px;
+    padding: 5px 15px;
+}
+
+.Cont_Content_2 {
+    display: flex;
+}
+
+.bottom_DIV {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* padding-top: 100px; */
+}
+
+
+
+/*   -----   M E D I A * Q U E R Y   -----   */
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        padding: 10px 25px 10px;
+    }
+
+    .circle_1 {
+        display: none;
+    }
+    .circle_2 {
+        display: none;
+    }
+    .circle_3 {
+        display: none;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .Cont_NAV {
+        display: flex;
+        flex-direction: column;
+    }
+    li {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    a {
+        display: block;
+        padding-bottom: 10px;
+    }
+
+
+
+}
+
